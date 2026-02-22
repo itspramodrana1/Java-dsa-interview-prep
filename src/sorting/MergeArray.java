@@ -1,4 +1,10 @@
 package sorting;
+// Problem: merge array
+// Platform: LeetCode
+// Difficulty: Easy
+// Approach: Bubble Sort
+// Time Complexity: O(nlogn)
+// Space Complexity: O(n)
 
 public class MergeArray {
 
