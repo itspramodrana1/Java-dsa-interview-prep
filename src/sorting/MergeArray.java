@@ -1,11 +1,10 @@
 package sorting;
-// Problem: merge array
+// Problem: swap zero
 // Platform: LeetCode
 // Difficulty: Easy
 // Approach: Bubble Sort
 // Time Complexity: O(nlogn)
 // Space Complexity: O(n)
-
 public class MergeArray {
 
     public static void displayArr(int[] arr){
