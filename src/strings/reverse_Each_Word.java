@@ -2,7 +2,7 @@ package strings;
 
 import java.util.*;
 
-public class reverse_Word {
+public class reverse_Each_Word {
     public static String reverse(String s){
     String[] str = s.split("\\s+");
 
