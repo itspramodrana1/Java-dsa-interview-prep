@@ -1,6 +1,9 @@
 package strings;
 
 public class FirstUniqueCharacter {
+
+
+
     private static String firstNonRepeatingiCharacterPrint(String s) {
          String chh = "";
         int[] count = new int[26];
@@ -18,6 +21,8 @@ public class FirstUniqueCharacter {
         return chh;
     }
 
+
+
     public static void main(String[] args) {
         String s = "ppramod";
         String str = firstNonRepeatingiCharacterPrint(s);
@@ -27,6 +32,11 @@ public class FirstUniqueCharacter {
      //   int idx = uniqueFirstCharacter(s);
      //   System.out.println(idx);
     }
+
+
+                     // LeetCode   387
+          //  Input: s = "loveleetcode"
+          //Output: 2
 
     private static int uniqueFirstCharacter(String s) {
 
